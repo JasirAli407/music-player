@@ -60,24 +60,22 @@ display:flex;
 }
 
 @keyframes rotation{
-	0%{
-		transform: rotate(0deg);
-	}
-50%{
-	transform: rotate(150deg);
+	
+
+to{
+	transform: rotate(360deg);
 }
 
-100%{
-	transform: rotate(-150deg);
-}
 }
 	
 
 
 #logo-img-container{	
 	height: 50px;
-		animation: rotation 5s infinite alternate;
-		animation-timing-function: ease-in-out;
+	width: 50px;
+	/*border-radius: 50%;*/
+		animation: rotation 5s infinite ;
+		animation-timing-function: linear;
 
 		}
 
